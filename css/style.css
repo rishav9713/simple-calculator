@@ -1,0 +1,62 @@
+body {
+    /* background-color: rgb(255, 233, 206); */
+    background: url('./../bgk.jpg');
+    background-size: cover;
+}
+
+.calc {
+    background-color: rgb(130, 185, 248, .5);
+    margin: auto;
+    text-align: center;
+    width: 40%;
+    padding: 4rem;
+    position: relative;
+    top: 17%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgb(0, 0, 0);
+    z-index: 1;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 2.4rem;
+    letter-spacing: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    overflow: auto;
+}
+
+input:focus::placeholder {
+    color: transparent;
+}
+
+#num1 {
+    height: 3rem;
+    width: 12rem;
+    font-size: 1rem;
+    text-align: center;
+    border-style: groove;
+    border-radius: 30px;
+    box-shadow: 0 0 15px rgb(255, 223, 39);
+}
+
+#num2 {
+    margin-left: 1rem;
+    height: 3rem;
+    width: 12rem;
+    font-size: 1rem;
+    text-align: center;
+    border-style: groove;
+    border-radius: 30px;
+    box-shadow: 0 0 15px rgb(255, 223, 39);
+}
+
+.btn {
+    width: 10rem;
+    height: 2rem;
+    border-radius: 0%;
+    margin: 5px;
+    font-size: 1.2rem;
+    font-style: italic;
+    box-shadow: 3px 3px 5px rgb(0, 255, 170);
+}
